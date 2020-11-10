@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id_marca": 1,
+    "nombre": "NIKE"
+  },
+  "2": {
+    "id_marca": 2,
+    "nombre": "ADIDAS"
+  },
+  "3": {
+    "id_marca": 3,
+    "nombre": "PUMA"
+  },
+  "4": {
+    "id_marca": 4,
+    "nombre": "FILA"
+  },
+  "5": {
+    "id_marca": 5,
+    "nombre": "CONVERSE"
+  }
+}

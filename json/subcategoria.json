@@ -1,1 +1,57 @@
-{"1":{"id_marca":null,"id_subcategoria":1,"id_categoria":1,"nombre":"Buzos"},"2":{"id_marca":null,"id_subcategoria":2,"id_categoria":1,"nombre":"Remeras"},"3":{"id_marca":null,"id_subcategoria":3,"id_categoria":1,"nombre":"Pantalones"},"4":{"id_marca":null,"id_subcategoria":4,"id_categoria":2,"nombre":"Zapatillas Mujer"},"5":{"id_marca":null,"id_subcategoria":5,"id_categoria":2,"nombre":"Zapatillas Hombre"},"6":{"id_marca":null,"id_subcategoria":6,"id_categoria":2,"nombre":"Zapatillas Infantiles"},"7":{"id_marca":1,"id_subcategoria":null,"id_categoria":3,"nombre":"NIKE"},"8":{"id_marca":2,"id_subcategoria":null,"id_categoria":3,"nombre":"ADIDAS"},"9":{"id_marca":3,"id_subcategoria":null,"id_categoria":3,"nombre":"PUMA"},"10":{"id_marca":4,"id_subcategoria":null,"id_categoria":3,"nombre":"FILA"},"11":{"id_marca":5,"id_subcategoria":null,"id_categoria":3,"nombre":"CONVERSE"}}
+{
+    "1": {
+        "id_subcategoria": 1,
+        "id_categoria": 1,
+        "nombre": "Buzos"
+    },
+    "2": {
+        "id_subcategoria": 2,
+        "id_categoria": 2,
+        "nombre": "Zapatillas Mujer"
+    },
+    "3": {
+        "id_subcategoria": 3,
+        "id_categoria": 2,
+        "nombre": "Zapatillas Hombre"
+    },
+    "4": {
+        "id_subcategoria": 4,
+        "id_categoria": 2,
+        "nombre": "Zapatillas Infantiles"
+    },
+    "5": {
+        "id_subcategoria": 5,
+        "id_categoria": 1,
+        "nombre": "Remeras"
+    },
+    "6": {
+        "id_subcategoria": 6,
+        "id_categoria": 1,
+        "nombre": "Pantalones"
+    },
+    "7": {
+        "id_marca": 1,
+        "id_categoria": 3,
+        "nombre": "NIKE"
+    },
+    "8": {
+        "id_marca": 2,
+        "id_categoria": 3,
+        "nombre": "ADIDAS"
+    },
+    "9": {
+        "id_marca": 3,
+        "id_categoria": 3,
+        "nombre": "PUMA"
+    },
+    "10": {
+        "id_marca": 4,
+        "id_categoria": 3,
+        "nombre": "FILA"
+    },
+    "11": {
+        "id_marca": 5,
+        "id_categoria": 3,
+        "nombre": "CONVERSE"
+    }
+}

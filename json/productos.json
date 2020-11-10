@@ -1,162 +1,162 @@
 {
-  "1": {
-    "id_producto": 1,
-    "nombre": "buzo",
-    "descripcion": "Haz que sea memorable con este buzo con capucha de Nike Sportswear Heritage, un look atemporal confeccionado con un suave tejido de felpa semi cepillado. Posee un corte est\u00e1ndar.\r\n                       <br> Capucha con cord\u00f3n de ajuste, bolsillo canguro cintura y pu\u00f1os elastizados.\r\n                       <br> Presenta el logo Nike estampado.",
-    "id_marca": 1,
-    "precio": 4000,
-    "id_subcategoria": 1
-  },
-  "2": {
-    "id_producto": 2,
-    "nombre": "buzo",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 1,
-    "precio": 4000,
-    "id_subcategoria": 1
-  },
-  "3": {
-    "id_producto": 3,
-    "nombre": "buzo",
-    "descripcion": "buzo blanco y rosa",
-    "id_marca": 1,
-    "precio": 4000,
-    "id_subcategoria": 1
-  },
-  "4": {
-    "id_producto": 4,
-    "nombre": "Zapatilla Mujer",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 1,
-    "precio": 4000,
-    "id_subcategoria": 4
-  },
-  "5": {
-    "id_producto": 5,
-    "nombre": "Zapatilla Mujer",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 4
-  },
-  "6": {
-    "id_producto": 6,
-    "nombre": "Zapatilla Mujer",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 3,
-    "precio": 4000,
-    "id_subcategoria": 4
-  },
-  "7": {
-    "id_producto": 7,
-    "nombre": "Zapatilla Mujer",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 3,
-    "precio": 4000,
-    "id_subcategoria": 4
-  },
-  "8": {
-    "id_producto": 8,
-    "nombre": "Zapatilla Hombre",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 5
-  },
-  "9": {
-    "id_producto": 9,
-    "nombre": "Zapatilla Hombre",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 5
-  },
-  "10": {
-    "id_producto": 10,
-    "nombre": "Zapatilla Hombre",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 4,
-    "precio": 4000,
-    "id_subcategoria": 5
-  },
-  "11": {
-    "id_producto": 11,
-    "nombre": "Zapatilla Infantil",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 6
-  },
-  "12": {
-    "id_producto": 12,
-    "nombre": "Zapatilla Infantil",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 6
-  },
-  "13": {
-    "id_producto": 13,
-    "nombre": "Zapatilla Infantil",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 1,
-    "precio": 4000,
-    "id_subcategoria": 6
-  },
-  "14": {
-    "id_producto": 14,
-    "nombre": "Zapatilla Infantil",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 3,
-    "precio": 4000,
-    "id_subcategoria": 6
-  },
-  "15": {
-    "id_producto": 15,
-    "nombre": "Remera",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 2
-  },
-  "16": {
-    "id_producto": 16,
-    "nombre": "Remera",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 3,
-    "precio": 4000,
-    "id_subcategoria": 2
-  },
-  "17": {
-    "id_producto": 17,
-    "nombre": "Remera",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 2
-  },
-  "18": {
-    "id_producto": 18,
-    "nombre": "Pantalon",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 2,
-    "precio": 4000,
-    "id_subcategoria": 3
-  },
-  "19": {
-    "id_producto": 19,
-    "nombre": "Pantalon",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 3,
-    "precio": 4000,
-    "id_subcategoria": 3
-  },
-  "20": {
-    "id_producto": 20,
-    "nombre": "Pantalon",
-    "descripcion": "buzo naranja y verde",
-    "id_marca": 5,
-    "precio": 4000,
-    "id_subcategoria": 3
-  }
+    "1": {
+        "id_producto": 1,
+        "nombre": "BUZO NIKE HOODIE HERITAGE MUJER NEGRO",
+        "descripcion": "Haz que sea memorable con este buzo con capucha de Nike Sportswear Heritage, un look atemporal confeccionado con un suave tejido de felpa semi cepillado. Posee un corte est\u00e1ndar.\r\n                       <br> Capucha con cord\u00f3n de ajuste, bolsillo canguro cintura y pu\u00f1os elastizados.\r\n                       <br> Presenta el logo Nike estampado.",
+        "id_marca": 1,
+        "precio": 7.499,
+        "id_subcategoria": 1
+    },
+    "2": {
+        "id_producto": 2,
+        "nombre": "BUZO NIKE HOODIE HERITAGE MUJER VERDE",
+        "descripcion": "Haz que sea memorable con este buzo con capucha de Nike Sportswear Heritage, un look atemporal confeccionado con un suave tejido de felpa semi cepillado.\r\n            Posee un corte est\u00e1ndar.\r\n            Capucha con cord\u00f3n de ajuste, bolsillo canguro cintura y pu\u00f1os elastizados.\r\n            Presenta el logo Nike estampado.",
+        "id_marca": 1,
+        "precio": 7.499,
+        "id_subcategoria": 1
+    },
+    "3": {
+        "id_producto": 3,
+        "nombre": "BUZO NIKE HOODIE HERITAGE MUJER BLANCO",
+        "descripcion": "Hac\u00e9 que sea memorable con este buzo con capucha de NIKE Sportswear Heritage, un look atemporal confeccionado con un suave tejido de felpa semi cepillado.\r\n            Posee un corte est\u00e1ndar.\r\n            Cuenta con capucha con cord\u00f3n de ajuste, bolsillo canguro cintura y pu\u00f1os elastizados.\r\n            Presenta el logo NIKE estampado.",
+        "id_marca": 1,
+        "precio": 7.499,
+        "id_subcategoria": 1
+    },
+    "4": {
+        "id_producto": 4,
+        "nombre": "ZAPATILLA NIKE AIR ZOOM VOMERO 14 MUJER GRIS",
+        "descripcion": "El calzado NIKE Air Zoom Vomero 14 lleva la amortiguaci\u00f3n eficaz al siguiente nivel. \r\n            La unidad Zoom Air de largo completo trabaja con la amortiguaci\u00f3n NIKE React para proporcionar una pisada suave y r\u00e1pida. \r\n            El dise\u00f1o elegante de la parte superior est\u00e1 fabricado para brindar soporte a cada paso.\r\n            La tecnolog\u00eda Dynamic Fit complementa los filamentos Flywire con los cordones para ofrecer una sensaci\u00f3n de soporte en el mediopi\u00e9.\r\n            Las c\u00e1psulas de espuma rodean la parte trasera del pie para una sensaci\u00f3n de ajuste.\r\n            La tecnolog\u00eda Nike React y la unidad Zoom Air brindan una pisada extremadamente suave.\r\n            La parte superior de tela y material sint\u00e9tico transpirable est\u00e1 preparada para brindar soporte y durabilidad.\r\n            Dise\u00f1ada para corredoras con pisada neutra.",
+        "id_marca": 1,
+        "precio": 16.499,
+        "id_subcategoria": 2
+    },
+    "5": {
+        "id_producto": 5,
+        "nombre": "ZAPATILLA ADIDAS RESPONSE SR MUJER NEGRA",
+        "descripcion": "Pod\u00e9s correr 100 metros. Un kil\u00f3metro. Tal vez tres.\r\n            Est\u00e1s corriendo y eso es lo m\u00e1s importante.\r\n            A\u00fan mejor si lo hac\u00e9s con estas zapatillas de running ADIDAS.\r\n            Mediasuela con amortiguaci\u00f3n Response Foam, que facilita cada paso.\r\n            Su dise\u00f1o transpirable con amortiguaci\u00f3n te ayuda a seguir trabajando para alcanzar tus metas. \r\n            Dise\u00f1adas para corredoras con pisada neutra.",
+        "id_marca": 2,
+        "precio": 8.199,
+        "id_subcategoria": 2
+    },
+    "6": {
+        "id_producto": 6,
+        "nombre": "ZAPATILLA FILA LUMIX MUJER ROSA",
+        "descripcion": "Las zapatillas FILA Lumix de mujer sirven para aquellos entrenamientos de media distancia.\r\n            Su capellada con diferentes tejidos facilita el calce.\r\n            La entresuela con tecnologia Energized brinda una exelente amortiguaci\u00f3n.\r\n            La suela posee insertos de caucho en puntos especificos para mejor tracci\u00f3n. \r\n            Dise\u00f1adas para corredoras con pisada neutra.",
+        "id_marca": 3,
+        "precio": 5.99,
+        "id_subcategoria": 4
+    },
+    "7": {
+        "id_producto": 7,
+        "nombre": "ZAPATILLA PUMA X-RAY METALLIC MUJER BLANCA",
+        "descripcion": "Te presentamos las X-Ray, una declaraci\u00f3n de amor por lo retro equipada con la mejor tecnolog\u00eda deportiva de PUMA.\r\n            Estas zapatillas incluyen elementos gr\u00e1ficos de gran tama\u00f1o que hacen las delicias de los amantes de lo retro y se combinan con una entresuela de EVA moldeada por inyecci\u00f3n que te ofrece la mayor comodidad en cada pisada.\r\n            La plantilla Softfoam, proporciona mayor amortiguaci\u00f3n, durabilidad \u00f3ptima y facilita la zancada. ",
+        "id_marca": 3,
+        "precio": 7.299,
+        "id_subcategoria": 2
+    },
+    "8": {
+        "id_producto": 8,
+        "nombre": "ZAPATILLA ADIDAS ENERGYFALCON AZUL",
+        "descripcion": "Corr\u00e9 para alcanzar tus metas.\r\n            Esta zapatilla de running ADIDAS Energyfalcon presenta un dise\u00f1o flexible de gran sujeci\u00f3n que proporciona mayor estabilidad y comodidad.\r\n            Su mediasuela Cloudfoam te aporta la amortiguaci\u00f3n que necesit\u00e1s para conseguir todos tus objetivos.\r\n            El tal\u00f3n moldeado protege el tend\u00f3n de Aquiles y acompa\u00f1a el movimiento natural del pie, mientras que el refuerzo lateral ofrece mayor sujeci\u00f3n y un ajuste a medida.\r\n            La suela Adiwear es una suela con base de caucho, que proporciona mayor durabilidad al calzado, frente superficies m\u00e1s abrasivas.\r\n            Dise\u00f1ada para corredores con pisada neutra.",
+        "id_marca": 2,
+        "precio": 7.299,
+        "id_subcategoria": 3
+    },
+    "9": {
+        "id_producto": 9,
+        "nombre": "ZAPATILLA ADIDAS PULSEBOOST HD AZUL",
+        "descripcion": "La ciudad tiene su propia energ\u00eda.\r\n            Se siente en el aire y emana del asfalto.\r\n            Aprovech\u00e1 el poder urbano con estas zapatillas de running ADIDAS.\r\n            Presentan un dise\u00f1o con amortiguaci\u00f3n receptiva que te devuelve la energ\u00eda que invert\u00eds a cada paso y te brinda una sensaci\u00f3n de firmeza y conexi\u00f3n con el suelo.\r\n            Incorpora la tecnolog\u00eda Boost HD a la mediasuela para una amortiguaci\u00f3n superior.\r\n            Porque no hay ning\u00fan otro lugar en el mundo donde prefer\u00eds estar.\r\n            Dise\u00f1adas para corredores con pisada neutra.",
+        "id_marca": 2,
+        "precio": 14.999,
+        "id_subcategoria": 3
+    },
+    "10": {
+        "id_producto": 10,
+        "nombre": "ZAPATILLA FILA THUNDERBOLT NEGRA",
+        "descripcion": "Las nuevas Thunderbolt de FILA con exclusiva tecnolog\u00eda 3Action en la entresuela, proporcionan una mejor absorci\u00f3n del impacto y respuesta.\r\n            Adem\u00e1s, incorpora la tecnolog\u00eda Energized Rubber de alta frecuencia que permite una excelente amortiguaci\u00f3n.\r\n            Capellada con sistema de ajuste tipo Slip-On favorece el calce garantizando un buen confort.\r\n            Posee una pieza estabilizadora en su lateral para una mejora estabilidad.\r\n            Suela con insertos de caucho en lugares estrat\u00e9gicos para una mejor tracci\u00f3n y adherencia.",
+        "id_marca": 4,
+        "precio": 5.49,
+        "id_subcategoria": 3
+    },
+    "11": {
+        "id_producto": 11,
+        "nombre": "ZAPATILLA ADIDAS GALAXY 5 AZUL",
+        "descripcion": "Hac\u00e9 que cada kil\u00f3metro cuente.\r\n            Esta zapatilla ADIDAS hace que cada paso sea bueno.\r\n            Tus pies pr\u00e1cticamente se hunden en el acolchado de felpa. \r\n            Se siente como si pudieras correr para siempre, o al menos dar otra vuelta.\r\n            La mediasuela CLOUDFOAM, confeccionada en EVA, fue modificada para obtener m\u00e1s propiedades de amortiguaci\u00f3n y confort pisada tras pisada.\r\n            La comodidad y el confort pueden ser el complemento perfecto en los entrenamientos para los atletas que van iniciando y\/o son ocasionales.\r\n            Dise\u00f1ada para corredores con pisada neutra.",
+        "id_marca": 2,
+        "precio": 5.399,
+        "id_subcategoria": 4
+    },
+    "12": {
+        "id_producto": 12,
+        "nombre": "ZAPATILLA ADIDAS RAPIDAFLEX SUMMER.RDY NI\u00d1O NEGRA",
+        "descripcion": "Bienvenidos los d\u00edas llenos de aventuras, inspiraci\u00f3n y nuevas ideas.\r\n            Estas zapatillas ADIDAS para ni\u00f1os les permite jugar durante todo el verano con comodidad.\r\n            Presentan un dise\u00f1o en malla transpirable que optimiza el flujo de aire, con cordones el\u00e1sticos y tira ajustable de cierre por contacto para ponerlas y quitarlas r\u00e1pidamente cuando est\u00e1n entrando y saliendo de la casa constantemente.\r\n            La mediasuela CLOUDFOAM, confeccionada en EVA, fue modificada para obtener m\u00e1s propiedades de amortiguaci\u00f3n y confort pisada tras pisada.\r\n            La plantilla antimicrobiana ecol\u00f3gica EcoOrthoLite\u00ae proporciona m\u00e1s amortiguaci\u00f3n y ventilaci\u00f3n, y previene el mal olor.",
+        "id_marca": 2,
+        "precio": 5.999,
+        "id_subcategoria": 4
+    },
+    "13": {
+        "id_producto": 13,
+        "nombre": "ZAPATILLA NIKE MD RUNNER 2 NI\u00d1O GRIS",
+        "descripcion": "Aprovecha el dise\u00f1o de las MD Runner 2 para darle a tu hijo el mejor calzado para disfrutar de todos los d\u00edas.\r\n            Es un calzado ligero confeccionado con una mediasuela acolchada para mayor comodidad durante sus horas de diversi\u00f3n.\r\n            Posee un pr\u00e1ctico ajuste de velcro.",
+        "id_marca": 1,
+        "precio": 6.999,
+        "id_subcategoria": 4
+    },
+    "14": {
+        "id_producto": 14,
+        "nombre": "ZAPATILLA PUMA ST RUNNER V2 NYLON VELCRO NI\u00d1O NEGRA",
+        "descripcion": "Dise\u00f1adas para que los m\u00e1s chicos puedan disfrutar todos los d\u00edas con estilo y comodidad.\r\n            Debido a la naturaleza de exclusiva calidad de la piel y el ante, podr\u00eda ocurrir que en algunos casos el producto desti\u00f1era levemente, sobre todo en condiciones de humedad.\r\n            Mientras est\u00e9 mojada, se aconseja que la zapatilla no entre en contacto con otras prendas claras hasta que no est\u00e9 completamente seca.\r\n            Ajuste de velcro.",
+        "id_marca": 3,
+        "precio": 4.799,
+        "id_subcategoria": 4
+    },
+    "15": {
+        "id_producto": 15,
+        "nombre": "REMERA ADIDAS LINEAR NI\u00d1O NEGRA",
+        "descripcion": "Est\u00e1s ocupado.\r\n            No ten\u00e9s tiempo para cambiar de ropa al mediod\u00eda.\r\n            Esta remera ADIDAS para ni\u00f1os combina a la perfecci\u00f3n con tu ritmo de vida.\r\n            Su tejido jersey de algod\u00f3n es c\u00f3modo y resistente para que puedas moverte sin restricciones.\r\n            El dise\u00f1o con bloques de color y el logo de ADIDAS en el pecho le dan un look inspirado en el f\u00fatbol que no pasa de moda. \r\n            Presenta el logo ADIDAS estampado.",
+        "id_marca": 2,
+        "precio": 1.799,
+        "id_subcategoria": 5
+    },
+    "16": {
+        "id_producto": 16,
+        "nombre": "REMERA PUMA ICONIC T7 SLIM NEGRA",
+        "descripcion": "Esta remera se convertir\u00e1 en una prenda imprescindible, tanto para ir al gimnasio como para hacer cualquier otra cosa.\r\n            Esta prenda cl\u00e1sica de corte ajustado est\u00e1 decorada con el logotipo PUMA de archivo n.\u00ba 1 en el pecho y te har\u00e1 sentir bien por fuera y por dentro gracias a la colaboraci\u00f3n de PUMA con la Better Cotton Initiative. \r\n            Presenta el logo PUMA estampado.",
+        "id_marca": 3,
+        "precio": 2.299,
+        "id_subcategoria": 5
+    },
+    "17": {
+        "id_producto": 17,
+        "nombre": "BUZO ADIDAS TAN LOGO NEGRO",
+        "descripcion": "Confort total para los d\u00edas de fr\u00edo.\r\n            Este buzo forma parte de la colecci\u00f3n TAN de ADIDAS, una serie de prendas urbanas inspirados en el mundo del f\u00fatbol.\r\n            Su tejido con mezcla de algod\u00f3n te ofrece la calidez que necesit\u00e1s.\r\n            El gran logotipo en contraste de la parte frontal muestra tu pasi\u00f3n por el deporte rey. \r\n            Cintura y pu\u00f1os elastizados.\r\n            Presenta logo estampado.\r\n            Sin friza.",
+        "id_marca": 2,
+        "precio": 4.399,
+        "id_subcategoria": 5
+    },
+    "18": {
+        "id_producto": 18,
+        "nombre": "PANTALON ADIDAS SERENO 19 TRG NEGRO",
+        "descripcion": "Mantenete seco y enfocado.\r\n            El tejido absorbente de este pantal\u00f3n ADIDAS para hombre aleja el sudor de tu piel mientras entren\u00e1s o te relaj\u00e1s.\r\n            Su dise\u00f1o de piernas c\u00f3nicas con cierres en los tobillos lo hace f\u00e1cil de poner y quitar. \r\n            El tejido Climalite de este pantal\u00f3n favorece el secado r\u00e1pido, ya que al ser un tejido ultraligero, absorbe el sudor para alejarlo de la piel y hacer que se evapore r\u00e1pidamente.\r\n            Cintura elastizada con cord\u00f3n de ajuste interno.\r\n            Posee bolsillos laterales y botamangas con cierre.\r\n            Presenta el logo ADIDAS estampado.\r\n            Sin friza.",
+        "id_marca": 2,
+        "precio": 4.299,
+        "id_subcategoria": 6
+    },
+    "19": {
+        "id_producto": 19,
+        "nombre": "PANTALON PUMA EVOSTRIPE MUJER NEGRO",
+        "descripcion": "La ropa sport del futuro llega de la mano de este elegante pantal\u00f3n Evostripe, dise\u00f1ado espec\u00edficamente para ofrecerte una comodidad sostenible.\r\n            Este modelo est\u00e1 confeccionado en tejido dryCELL, que aleja la humedad de la piel y te ayuda a permanecer seca y c\u00f3moda, y fibras certificadas de Better Cotton Initiative.\r\n            El corte regular logra un equilibrio c\u00f3modo entre holgado y ajustado.\r\n            Cuenta con cintura elastizada con cord\u00f3n de ajuste interno.\r\n            Posee bolsillos laterales con cierre.\r\n            Presenta el logo PUMA estampado.\r\n            Sin friza.",
+        "id_marca": 3,
+        "precio": 4.599,
+        "id_subcategoria": 6
+    },
+    "20": {
+        "id_producto": 20,
+        "nombre": "PANTALON CONVERSE CONS NEGRO",
+        "descripcion": "Complet\u00e1 tu look urbano con este pantal\u00f3n CONVERSE.\r\n            Cuenta con cintura elastizada con cord\u00f3n de ajuste.\r\n            Posee bolsillos laterales.\r\n            Presenta el logo CONVERSE estampado.\r\n            Sin friza.",
+        "id_marca": 5,
+        "precio": 4.299,
+        "id_subcategoria": 6
+    }
 }

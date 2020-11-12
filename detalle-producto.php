@@ -1,35 +1,40 @@
 <?php
-date_default_timezone_set('America/Argentina/Buenos_Aires'); // seteo hora local
 
-require_once("includes/funciones.php");
 
 
 require_once("includes/cabecera.php");
 
 require_once("includes/aside.php");
 
-$pr_id = $_GET['id_producto'];
+date_default_timezone_set('America/Argentina/Buenos_Aires'); // seteo hora local
 $a_productos = json_decode(file_get_contents('json/productos.json'), true);
 $a_comentarios = json_decode(file_get_contents('json/comentarios.json'), true);
 
-// Variebles de productos
-
-$nom = ucfirst($a_productos[$pr_id]['nombre']);
-$desc = $a_productos[$pr_id]['descripcion'];
-$precio = $a_productos[$pr_id]['precio'];
-$ruta_img = 'imagenes/' . $pr_id . '/' . $pr_id . '.jpg';
-$fecha = date('Y-m-d H:i');
-
 //variables de comentarios
 
-$a_comentariosR = array_reverse($a_comentarios);
-
 if (isset($_GET['in_enviar_comentario'])) {
+    $fecha = date('Y-m-d H:i');
     $in_correo = $_GET['in_correo'];
     $in_comentario = $_GET['in_comentario'];
     $id_producto = $_GET['id_producto'];
     $in_valoracion =$_GET['inlineRadioOptions'];
 
+  echo "    <div class='modal' tabindex='-1' role='dialog' id='ventana-modal'>";
+  echo "    <div class='modal-dialog' role='document'>";
+  echo "      <div class='modal-content' >";
+  echo "        <div class='modal-header rounded-0 border-0 text-white' style='background-color:red;'>";
+  echo "          <h5 class='modal-title '>Gracias por su comentario ".$in_correo ."</h5>";
+
+  echo "        </div>";
+  echo "        <div class='modal-body  ' style='background-color:black;'>";
+  echo "          <p class ='text-white'>Su valoracion ". $in_valoracion ." sera agregada al producto.</p>";
+  echo "        </div>";
+  echo "        <div class='modal-footer border-0' style='background-color:black;'>";
+  echo "          <button type='button' class='btn btn-danger' ><a class='text-white' href='detalle-producto.php?id_producto=".$id_producto."'>Volver</a></button>";
+  echo "        </div>";
+  echo "      </div>";
+  echo "    </div>";
+  echo "    </div>";
 
     array_push($a_comentarios, array(
 
@@ -40,12 +45,27 @@ if (isset($_GET['in_enviar_comentario'])) {
         "valoracion" => $in_valoracion
     ));
 
-
-
-
     file_put_contents('json/comentarios.json', json_encode($a_comentarios));
 }
 
+
+
+
+
+/* ACA ESTA LA VARIABLE QUE RESCATAMOS DE LA URL*/
+$pr_id = $_GET['id_producto'];
+
+
+// Variebles de productos
+
+$nom = ucfirst($a_productos[$pr_id]['nombre']);
+$desc = $a_productos[$pr_id]['descripcion'];
+$precio = $a_productos[$pr_id]['precio'];
+$ruta_img = 'imagenes/' . $pr_id . '/' . $pr_id . '.jpg';
+
+
+
+/* ACA MOSTRAMOS EL PRODUCTO QUE SE SELECCIONO*/
 
 ?>
 
@@ -81,12 +101,17 @@ if (isset($_GET['in_enviar_comentario'])) {
 
     </div>
 
+    <div class="sector-comentarios ">
+
+    <h2 class="text-center">Comentarios</h2>
+
     <?php
 
+    /*ACA MOSTRAMOS LOS 3 ULTIMOS COMENTARIOS DEL PRODUCTO  */
     $cont = 1;
-    foreach ($a_comentariosR as $a_comentario) {
+    foreach (array_reverse($a_comentarios) as $a_comentario) {
         if ($a_comentario['id_producto'] == $pr_id) {
-            $cont = 1;
+           
     ?>
             <div class="card m-2 mx-3">
                 <div class="card-header">
@@ -113,6 +138,8 @@ if (isset($_GET['in_enviar_comentario'])) {
 
     ?>
 
+    
+</div>
 
     <!--  FORM -->
     <div class=" contenedor mx-3 px-3">
@@ -124,7 +151,7 @@ if (isset($_GET['in_enviar_comentario'])) {
                 <label>Ingrese su valoracion</label> <br>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"  checked value="1">
                     <label class="form-check-label" for="inlineRadio1">1</label>
                 </div>
 
@@ -139,13 +166,13 @@ if (isset($_GET['in_enviar_comentario'])) {
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="4">
-                    <label class="form-check-label" for="inlineRadio3">4 </label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4">
+                    <label class="form-check-label" for="inlineRadio4">4 </label>
                 </div>
 
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="5">
-                    <label class="form-check-label" for="inlineRadio3">5 </label>
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5">
+                    <label class="form-check-label" for="inlineRadio5">5 </label>
                 </div>
             </div>
 

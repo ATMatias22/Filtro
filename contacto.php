@@ -5,6 +5,9 @@ require_once("includes/funciones.php");
 require_once("includes/cabecera.php");
 
 
+
+
+
 $a_contacto = json_decode(file_get_contents('json/contacto.json'), true);
 
 if (isset($_POST['in_enviar_contacto'])) {
@@ -14,6 +17,23 @@ if (isset($_POST['in_enviar_contacto'])) {
     $in_correo =$_POST['in_correo'];
     $in_pregunta = $_POST['in_pregunta'];
     $in_area = $_POST['in_area'];
+
+    echo "    <div class='modal' tabindex='-1' role='dialog' id='ventana-modal'>";
+    echo "    <div class='modal-dialog' role='document'>";
+    echo "      <div class='modal-content'>";
+    echo "        <div class='modal-header rounded-0 border-0 text-white' style='background-color:red;'>";
+    echo "          <h5 class='modal-title'> ".$in_nombre ." gracias por contactarse con nosotros </h5>";
+  
+    echo "        </div>";
+    echo "        <div class='modal-body'style='background-color:black;'>";
+    echo "          <p  class ='text-white'>Nos contactaremos lo mas pronto posible</p>";
+    echo "        </div>";
+    echo "        <div class='modal-footer border-0' style='background-color:black;'>";
+    echo "          <button type='button' class='btn btn-danger' ><a class='text-white' href='index.php'>Volver</a></button>";
+    echo "        </div>";
+    echo "      </div>";
+    echo "    </div>";
+    echo "    </div>";
 
 
     array_push($a_contacto, array(
@@ -27,10 +47,10 @@ if (isset($_POST['in_enviar_contacto'])) {
         "area" => $in_area
 
     ));
-
-
-
     file_put_contents('json/contacto.json', json_encode($a_contacto));
+
+    
+
     
 }
     
@@ -68,8 +88,8 @@ if (isset($_POST['in_enviar_contacto'])) {
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Area donde desea enviar su consulta</label>
                         <select class="form-control" id="exampleFormControlSelect1" name="in_area" required>
-                            <option value="" selected="selected">Seleccionar</option>
-                            <option>Atencion al Cliente</option>
+                         
+                            <option selected>Atencion al Cliente</option>
                             <option>Devoluciones</option>
                             <option>Reclamos</option>
                            
